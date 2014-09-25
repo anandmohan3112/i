@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<ctype.h>
+void main()
+{
+char text[]="anand";
+if(sizeof(text)==7 )
+printf("\n \a true");
+else
+printf("\n false,%d",sizeof(text));
+
+}
